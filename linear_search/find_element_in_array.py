@@ -1,9 +1,9 @@
 def findElement(arr,target):
-    for num in arr:
-        if num == target:
-            return True
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
         
-    return False 
+    return -1 
 
 arr = [10,20,30,24,19,13,45]
 target =45
