@@ -6,6 +6,9 @@
   Keep track of the element with the highest frequency.  
   Return the element with maximum count. 
   
+  Time Complexity: O(n^2)
+  Space Complexity: O(1)
+  
 """
 
 
