@@ -1,3 +1,14 @@
+"""
+  find an index where left sum = right sum.
+  
+  Approach : Equilibrium Index / Pivot Index
+  formula => 2×LeftSum+arr[i]=TotalSum
+  
+  Time Complexity = O(n)
+  Space Complexity =O(n)
+      
+"""
+
 def findEquilibriumIndex(arr):
     totalSum= sum(arr)
     leftSum = 0
